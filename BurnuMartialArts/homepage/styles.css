@@ -1,0 +1,188 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27282aef;
+    padding: 15px;
+}
+body{
+    background-color: black;
+}
+
+.logo {
+    width: 13%;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font: 1em sans-serif;
+    font-style: inherit;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    background-color: rgb(6, 236, 14);
+    color: white;
+    border: none;
+    border-radius: 10px; /* Adjust the value to control the button's roundness */
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 675px;
+    background-image: url('enhanced.jpg');
+    background-size: cover; /* Adjust as needed (e.g., 'contain', '100% 100%', etc.) */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.welcome {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    color: #fff; /* Set the text color to white */
+    font-family: 'Source Serif Pro', serif; /* Use proper font family declaration */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: none; /* Add background color to improve text visibility */
+    padding: 10px; /* Add padding for better text legibility */
+}
+.subhead{
+    position: absolute;
+    top: 78%;
+    left: 14%;
+}
+/* CSS for "Join Now" button */
+.join-now-button {
+    position: absolute;
+    left: 40%;
+    top: 130%;
+    
+    padding: 10px 20px; /* Adjust the padding to your preference */
+    background-color: #27c100; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Adjust the border-radius to control the button's roundness */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    font: sans-serif;
+    font-style: inherit;
+}
+
+.join-now-button:hover {
+    background-color: #e70f0f; /* Button background color on hover */
+}
+.footer{
+    width: 100%;
+    height: 35%;
+    background-color: #27282aef;
+    position: absolute;
+}
+.about{
+    position: absolute;
+    left: 6%;
+    font-size: small;
+    font: normal bold 15px var(--bs-font-sans-serif);
+    color: whitesmoke;
+    text-decoration: chocolate underline;
+    margin: 1%;
+}
+.aboutdesc{
+    color: rgb(121, 156, 163);
+    height: 30%;
+    width: 14%;
+    position: absolute;
+    left: 4%;
+    top: 15%
+}
+.learn{
+    position: absolute;
+    left: 40%;
+    font: normal bold 30px var(--bs-font-sans-serif);
+    color: whitesmoke;
+    text-decoration: chocolate underline;
+    margin: 1%;
+}
+.learn-link{
+    position: absolute;
+    left: 41%;
+    top: 18%;
+    color:  rgb(121, 156, 163);
+}
+.learn-link ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.learn-link ul li a {
+    color: rgb(121, 156, 163);
+    text-decoration: none;
+    font-style: inherit;
+}
+.learn-link ul li a:hover {
+    color: #fff; /* Change the color on hover to your desired color (white in this example) */
+}
+.social{
+    position: absolute;
+    left: 80%;
+    font: normal bold 30px var(--bs-font-sans-serif);
+    color: whitesmoke;
+    text-decoration: chocolate underline;
+    margin: 1%;
+}
+.social-link{
+    position: absolute;
+    left: 81%;
+    top: 18%;
+    font: normal bold 30px var(--bs-font-sans-serif);
+    color:rgb(121, 156, 163);
+}
+.social-link ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.social-link ul li a {
+    color: rgb(121, 156, 163);
+    text-decoration: none;
+    font-style: inherit;
+}
+.social-link ul li a:hover {
+    color: #fff; /* Change the color on hover to your desired color (white in this example) */
+    
+}
+.copyright {
+    position: absolute;
+    top: 129%;
+    background-color: #000000ef;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: 98.7%;
+}

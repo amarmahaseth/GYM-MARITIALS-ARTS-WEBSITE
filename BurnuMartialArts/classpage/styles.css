@@ -1,0 +1,50 @@
+/* styles.css */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27282aef;
+    padding: 15px;
+}
+body{
+    background-color: black;
+}
+
+.logo {
+    width: 13%;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font: 1em sans-serif;
+    font-style: inherit;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    background-color: rgb(6, 236, 14);
+    color: white;
+    border: none;
+    border-radius: 10px; /* Adjust the value to control the button's roundness */
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
